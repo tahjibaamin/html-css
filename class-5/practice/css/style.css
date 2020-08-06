@@ -1,0 +1,37 @@
+
+
+.green {
+	background: green;
+	width:500px;
+	height:300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.lal {
+	background: red;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 50px;
+		
+}
+.baby img {
+	display: none;
+
+	
+}
+
+.lal:hover {
+	display: none;
+	
+}
+	
+/*
+.lal:hover {
+	background-image: url( 'https://media.istockphoto.com/photos/cute-little-baby-boy-relaxing-in-bed-after-bath-smiling-happily-picture-id923852236?k=6&m=923852236&s=612x612&w=0&h=yhDRcow62oft0e40RpIm9BcFXPbEFr2YmqVZrzfMcT0=' );
+	background-size: 200px 200px;
+	border-radius: 50%;
+}
+*/

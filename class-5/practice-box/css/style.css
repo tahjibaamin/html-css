@@ -1,0 +1,44 @@
+
+body {
+	margin: 0;
+	padding:0;
+}
+.red-box {
+	width: 400px;
+	height: 100px;
+	background: red;
+	margin-bottom: 10px;
+float: left;
+transition: 3s;
+}
+.red-box:hover {
+ background: pink;	
+	width:800px;
+	height:100px;
+
+}
+
+
+.blue-box {
+	width: 25%;
+	height: 200px;
+	background: blue;
+	margin-bottom: 10px;
+		float: left;
+
+}
+.green-box {
+	width: 25%;
+	height: 200px;
+	background: green;
+	margin-bottom: 10px;
+	float: left;
+	
+}
+.yellow-box {
+	width: 25%;
+	height: 200px;
+	background: yellow;
+	margin-bottom: 10px;
+float: left;
+}
