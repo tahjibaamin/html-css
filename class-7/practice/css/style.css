@@ -125,7 +125,7 @@ body {
 	font-weight: normal;
 }
 
-.middle input[type=text], select {
+.middle input[type=text], .middle input[type=password], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -136,26 +136,17 @@ body {
 }
 
 
-.middle input [type="password"] {
-	width: 100%; 
-	margin: 10px 0;
-	border: 1px solid #999999;
-	padding: 5px;
-	border-radius: 5px;
-	font-size: 16px;
-	box-sizing: border-box;
-}
-.middle input [type="text"] :nth-child (1) {
-  background-color: lime;
-}
-.middle input [type="text"] :nth-child (1) {
-	width: 48% !important; 
-	margin-right: 4%;
-	float: left;
-}
-.middle input [type="text"] :nth-child (2) {
+.middle input[type=text]:nth-child(1) {
 	width: 48%;
+	margin-right: 2%;
+	float: left;
+  }
+
+  .middle input[type=text]:nth-child(2) {
+	width: 48%;
+	margin-right: 2%;
 	overflow: hidden;
-}
+  }
+
 
 
