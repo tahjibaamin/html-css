@@ -1,0 +1,31 @@
+@media all and  (max-width: 768px) {
+	
+	.header-area .logo-area {
+		float: none;
+	}
+	.logo-area a img {
+		display: block;
+		margin: auto;
+	} 
+	.header-area .login-area {
+		width: 450px;
+		margin: auto;
+		float: none;
+		padding: 20px 0;
+	}
+	
+}
+
+@media all and  (max-width:480px) {
+	
+	.login-area .user-area {
+			float: none;
+}
+	.login-area .password-area {
+		float: none;
+}
+.submit-area {
+	float: none;
+}
+	
+}

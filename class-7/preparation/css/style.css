@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 80%;
+	height: auto;
+}
+.header-area {
+	background: #3B5998;
+	overflow: hidden;
+	padding: 12px 0;
+}
+.header-area .logo-area {
+	float: left;
+	width: 30%;
+}
+.header-area .login-area {
+	float: right;
+	width: 70%;
+}
+.header-area form {
+	float: right;
+}
+.login-area label {
+	display: block;
+	color:  white;
+	margin: 5px 0;
+}
+.login-area .password-area a {
+	display: block;
+	color: #e5e5e5;
+	font-size: 14px;
+	text-decoration: none;
+}
+.login-area .password-area a:hover {
+text-decoration: underline;
+}
+.login-area .user-area {
+	float: left;
+	overflow: hidden;
+}
+.login-area .password-area {
+	float: left;
+	overflow: hidden;
+}
+.submit-area {
+	float: left;
+}
+.logo-area a img {
+	margin-top: 15px;
+}
+.login-area input {
+	margin-right: 10px;
+	padding: 3px 8px;
+	border: 1px solid black;
+}
+.submit-area input {
+	background: #4267b2;
+	border: 1px solid #29487d;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 30px;
+}
+.submit-area input:hover {
+	background: #365899;
+}
+
+

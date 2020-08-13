@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #F0F2F5;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.right-side form input  {
+	float: right;
+	border: 1px solid #F5F5F5;
+	background: #FFFFFF;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 10px 0;
+}
+form {
+	float: right;
+	overflow: hidden;
+	width: 50%;
+	margin: 10px 0;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.signuo-area .submit-area {
+	background: green;
+	border: 5px solid green;
+	

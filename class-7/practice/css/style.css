@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:tahoma;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.header-area {
+	background: #3E5B99;
+	overflow: hidden;
+	padding: 12px 0;
+}
+
+.header-area .logo-area {
+	float: left;
+	
+}
+
+.header-area .login-area {
+	float: right;
+
+}
+
+.login-area label {
+	display: block;
+	margin: 5px 0;
+	color: #ffffff;
+}
+
+.header-area form {
+	float: right;
+} 
+
+.login-area .password-area a {
+	display:block;
+	color: #e5e5e5;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.login-area .password-area a:hover {
+	text-decoration: underline;
+}
+
+.login-area .user-area {
+	float: left;
+	overflow: hidden;
+}
+
+.login-area .password-area {
+	float: left;
+	overflow: hidden;
+}
+
+.login-area .submit-area {
+	float: left;
+}
+
+.logo-area a img {
+	margin-top: 18px;
+}
+
+.login-area input {
+	margin-right: 10px;
+	padding: 3px 8px;
+	border: 1px solid black;
+}
+
+.submit-area input {
+	background: #4267b2;
+	border: 1px solid #29487d;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.submit-area input:hover {
+	background: #365899;
+}
+
+
+/* Start Sign up area design */
+
+.signup-area{
+	overflow: hidden;
+	background: linear-gradient(#ffffff, #D9DDEB);
+}
+
+.left-side {
+	float: left;
+	overflow: hidden;
+	width: 55%;
+}
+
+.right-side {
+	width: 45%;
+	float: right;
+}
+
+.left-side img {
+	width: 100%;
+	height: auto; 
+}
+
+.top {
+	padding: 20px 0;
+}
+
+.top h2 {
+	color: #333333;
+	font-size: 35px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.top h4 {
+	color: #777777;
+	font-size: 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.middle input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.middle input [type="password"] {
+	width: 100%; 
+	margin: 10px 0;
+	border: 1px solid #999999;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.middle input [type="text"] :nth-child (1) {
+  background-color: lime;
+}
+.middle input [type="text"] :nth-child (1) {
+	width: 48% !important; 
+	margin-right: 4%;
+	float: left;
+}
+.middle input [type="text"] :nth-child (2) {
+	width: 48%;
+	overflow: hidden;
+}
+
+
