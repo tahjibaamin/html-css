@@ -1,0 +1,43 @@
+.box {
+	width: 500px;
+	height: 500px;
+	border: 0px solid red;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+}
+.box img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+}
+.box img:nth-child(1) {
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		z-index: 20
+}
+.box img:nth-child(2) {
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 5;
+}
+
+.box img:nth-child(3) {
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		margin: auto;
+		z-index: 10;
+}
+.box img:nth-child(2):hover {
+transform: scale(1.5) ;
+z-index: 100;
+}
