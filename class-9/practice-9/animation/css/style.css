@@ -1,0 +1,99 @@
+.janala {
+	background:  url('../images/baby.jpg') ; 
+	background-size: 100% 100%;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 100px;
+	position: relative;
+	transition: 2s;
+}
+
+.janala:hover {
+	background-size: 150% 150%;
+	background-position: center center;
+}
+.japsha {
+	width: 400px;
+	height: 400px;
+	background: rgba(0, 0, 0, 0) ;
+	transition: 2s;
+}
+
+.janala:hover .japsha {
+	background: rgba(0, 0, 0, 0.5) ;
+}
+.janala h2 {
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	font-family: tahoma;
+	margin-top: 20px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transition: 1s;
+	z-index: 666;
+
+}
+
+.janala:hover h2 {
+	top: 150px;
+}
+
+.janala:before {
+	content: ' ' ;
+	display: block;
+	width: 200px;
+	height: 400px;
+	background: lime;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 2s;
+	z-index: 777;
+	
+
+}
+
+
+.janala:hover:before {
+	content: ' ' ;
+	display: block;
+	width: 200px;
+	height: 400px;
+	background: lime;
+	position: absolute;
+	top: 0;
+	left: -200px;
+	transform: rotateY (180deg) ;
+}
+
+.janala:after {
+	content: ' ' ;
+	display: block;
+	width: 200px;
+	height: 400px;
+	background: orange;
+	position: absolute;
+	top: 0;
+	right: 0;	
+	transition: 2s;
+	z-index: 888;
+
+}
+
+.janala:hover:after {
+	content: ' ' ;
+	display: block;
+	width: 200px;
+	height: 400px;
+	background: orange;
+	position: absolute;
+	top: 0;
+	right: -200px;
+	transform: rotateY (180deg) ;
+}

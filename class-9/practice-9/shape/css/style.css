@@ -1,0 +1,44 @@
+.box {
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	margin-top: 200px;
+	background: red;
+	position: relative;
+}
+
+.box:before {
+	content: ' ' ;
+	display: block;
+	width: 0px;
+	height: 0px;
+	
+	
+	border-bottom: 150px solid red;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	
+	
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+}
+
+.box:after {  
+		content: ' ' ;
+		display: block;
+		width: 0;
+		height: 0;
+
+
+
+		border-top: 150px solid red;
+		border-left: 150px solid transparent;
+		border-right: 150px solid transparent;
+
+
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+}
