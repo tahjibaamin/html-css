@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: segoe UI;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    max-width: 960px;
+}
+
+.header-area {
+    background: #24242E;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.logo-area img {
+    width: 90px;
+    height: auto;
+}
+
+.header-content {
+    margin: 120px 0;
+}
+
+.header-content h2 {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.header-content p {
+    color: #f5f6f7;
+    font-size: 12px;
+    width: 40%;
+    margin: auto;
+    line-height: 20px;
+}
+
+.next-section a i {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.next-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* service-area start */
+
+.service-area {
+    padding: 50px 0;
+    background: url('../images/background.png') 0 0 /100% auto;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-content p {
+    width: 70%;
+    color: #464b4f;
+    font-size: 20px;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.service-title h2 {
+    font-size: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #464b4f;
+}
+
+.row {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.column-1-3 {
+    width: 31.333%;
+    margin: 0 1%;
+    float: left;
+    overflow: hidden;
+}
+
+.column-1-3 h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #464b4f;
+    margin: 10px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.column-1-3 p {
+    color: #888a8b;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+
+/*portfolio area start */
+
+.potfolio-area {
+    background: #24242E;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.potfolio-category {
+    margin: 30px 0;
+}
+
+.potfolio-title h2 {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.potfolio-category ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.potfolio-category ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.potfolio-category ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+}
+
+.potfolio-category ul li:hover a {
+    border-bottom: 2px solid #7c77c9;
+}
+
+.active {
+    border-bottom: 2px solid #7c77c9;
+}
+
+.column-1-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.column-1-3 h5 {
+    color: #fff;
+    font-size: 15px;
+    margin: 7px 0;
+    font-weight: normal;
+}
+
+.potfolio-area .column-1-3 a {
+    color: #818baa;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.potfolio-area .column-1-3 {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: 20px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #7c77c9;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: 1px solid #7c77c9;
+    border-radius: 3px;
+}
