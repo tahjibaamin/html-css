@@ -1,0 +1,9 @@
+Data types ------
+
+1. String('we are batch 75' )
+2. Integer(1000, 100+500)
+3. Float(5555.44)
+
+4. Operator(+, -, *, %) programming er vashai ei guluke operator bole
+5. Variable
+6. array

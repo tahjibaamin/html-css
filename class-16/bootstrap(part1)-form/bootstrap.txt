@@ -1,0 +1,22 @@
+Bootstrap framework:
+
+1) html
+
+2) css
+
+3) javascript / jquery
+
+
+
+text-center
+text-justify
+bg-primary
+
+color: 
+
+1) primary
+2) success
+3) info
+4) danger
+5) default
+6) warning

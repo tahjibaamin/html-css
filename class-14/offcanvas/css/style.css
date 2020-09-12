@@ -1,0 +1,10 @@
+p {
+    color: #fff;
+    padding: 30px;
+    text-align: justify;
+    font-family: tahoma;
+}
+
+.jeikono .uk-offcanvas-bar {
+    width: 30%;
+}

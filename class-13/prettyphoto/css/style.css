@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    margin-top: 70px;
+}
+
+.gallery img {
+    width: 23%;
+    margin: 20px 1%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    border-radius: 10px;
+}

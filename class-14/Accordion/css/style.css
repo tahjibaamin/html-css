@@ -1,0 +1,19 @@
+    .parvez-accordion {
+        width: 600px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    .ui-state-active .ui-icon,
+    .ui-button:active .ui-icon {
+        background-image: url("images/ui-icons_ffffff_256x240.png");
+    }
+    
+    .parvez-accordion h2 {
+        background: #333333;
+        border: 2px solid #000000;
+    }
+    
+    .ui-state-default {
+        color: #fff;
+    }

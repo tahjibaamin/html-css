@@ -1,0 +1,9 @@
+Data types ------
+
+1. String
+2. Integer
+3. Float
+
+4. Operator
+5. Variable
+6. array

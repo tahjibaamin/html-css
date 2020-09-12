@@ -1,0 +1,1 @@
+$('.box').removeClass('new');

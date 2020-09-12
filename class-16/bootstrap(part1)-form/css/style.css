@@ -1,0 +1,8 @@
+p {
+    padding: 20px;
+}
+
+.form-group {
+    width: 50% !important;
+    margin: 10px auto !important;
+}

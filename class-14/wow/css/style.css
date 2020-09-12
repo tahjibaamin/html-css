@@ -1,0 +1,16 @@
+.box {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: tahoma;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    font-size: 45px;
+    color: orange;
+}
